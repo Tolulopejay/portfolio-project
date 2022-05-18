@@ -10,10 +10,17 @@ h1 {
   font-weight: bold;
   font-size: 96px;
 }
-
+.allheadings {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+}
+.pees {
+  color: #6c757d;
 }
 .hero {
   background-color: #f9f7fe;
