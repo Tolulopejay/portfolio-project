@@ -4,7 +4,8 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
-h1 {
+h1,
+h3 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -18,6 +19,10 @@ h1 {
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 .pees {
   color: #6c757d;
@@ -26,6 +31,7 @@ p {
   background-color: #f9f7fe;
   text-align: center;
   padding: 160px 20px;
+  margin: 0px;
 }
 .hero p {
   font-size: 36px;
@@ -56,5 +62,42 @@ p {
 @media (max-width: 600px) {
   h1 {
     font-size: 66px;
+  }
+}
+.content-container {
+  padding: 160px 20px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.content {
+  margin: 30px;
+}
+ul {
+  list-style-type: none;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+li {
+  display: inline;
+  margin: 20px;
+}
+nav {
+  padding: 20px;
+  line-height: 30px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+@media (max-width: 400px) {
+  ul {
+    margin: 10px;
   }
 }
