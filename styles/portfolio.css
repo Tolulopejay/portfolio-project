@@ -9,7 +9,7 @@ h3 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
-  font-size: 76px;
+  font-size: 50px;
 }
 .allheadings {
   color: black;
@@ -21,7 +21,7 @@ p {
   font-weight: normal;
 
   font-weight: normal;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 30px;
 }
 .pees {
@@ -137,4 +137,7 @@ footer .contact-box p {
 .body {
   margin: 40px 40px;
 }
-
+.let {
+  margin: -120px;
+  
+}
